@@ -91,7 +91,7 @@ const loadUpstreamGatewaySettings = (env = process.env) => {
   const adapterType =
     typeof gateway?.adapterType === "string" && gateway.adapterType.trim()
       ? gateway.adapterType.trim()
-      : "openclaw";
+      : (env.CLAW3D_GATEWAY_ADAPTER_TYPE || env.GATEWAY_ADAPTER_TYPE || "demo");
   if (!token && adapterType === "openclaw") {
     const defaults = readOpenclawGatewayDefaults(env);
     if (defaults) {

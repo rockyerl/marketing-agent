@@ -19,6 +19,9 @@ if (!process.env.HOST) {
 if (!process.env.STUDIO_ACCESS_TOKEN && !process.env.ALLOW_PUBLIC_ACCESS) {
   process.env.ALLOW_PUBLIC_ACCESS = 'true';
 }
+process.env.CLAW3D_GATEWAY_ADAPTER_TYPE = process.env.CLAW3D_GATEWAY_ADAPTER_TYPE || 'demo';
+process.env.DEMO_ADAPTER_PORT = process.env.DEMO_ADAPTER_PORT || '18789';
+process.env.UPSTREAM_ALLOWLIST = process.env.UPSTREAM_ALLOWLIST || 'localhost,127.0.0.1,::1';
 
 const children = [];
 
