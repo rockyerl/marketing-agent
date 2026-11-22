@@ -26,6 +26,9 @@ const normalizeHost = (host) => {
 const resolveHosts = (env = process.env) => {
   const host = String(env.HOST ?? "").trim();
   if (host) return [host];
+  if (process.env.NODE_ENV === "production" || process.env.RAILWAY_ENVIRONMENT || process.env.PORT) {
+    return ["0.0.0.0"];
+  }
   return ["127.0.0.1", "::1"];
 };
 

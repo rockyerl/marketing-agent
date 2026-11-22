@@ -105,6 +105,8 @@ function createAccessGate(options) {
 
   const handleHttp = (req, res) => {
     if (!enabled) return false;
+    const url = String(req.url || "/");
+    if (url === "/api/health" || url.startsWith("/api/health?")) return false;
     const auth = getAuthState(req);
     if (!auth.authorized) {
       const statusCode = auth.limited ? 429 : 401;
