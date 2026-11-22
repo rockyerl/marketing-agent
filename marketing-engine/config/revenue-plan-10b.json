@@ -1,0 +1,74 @@
+{
+  "targetAnnualRevenueIDR": 10000000000,
+  "currency": "IDR",
+  "timeframeMonths": 12,
+  "monthlyPacingTargetIDR": 833333333,
+  "exchangeRatesBaseline": {
+    "USD_TO_IDR": 16000,
+    "GBP_TO_IDR": 20000,
+    "EUR_TO_IDR": 17500,
+    "AUD_TO_IDR": 10500
+  },
+  "territoryQuotas": {
+    "indonesia": {
+      "quotaIDR": 2500000000,
+      "percentage": 25,
+      "avgDealSizeIDR": 250000000,
+      "dealsNeeded": 10,
+      "primaryFocus": "Enterprise Digital Transformation & Monthly Retainers (Rp 30M-60M/mo)"
+    },
+    "united_kingdom": {
+      "quotaIDR": 2500000000,
+      "percentage": 25,
+      "avgDealSizeGBP": 25000,
+      "avgDealSizeIDR": 500000000,
+      "dealsNeeded": 5,
+      "primaryFocus": "London/Manchester FinTech, B2B SaaS, and Growth Automation"
+    },
+    "europe": {
+      "quotaIDR": 2500000000,
+      "percentage": 25,
+      "avgDealSizeEUR": 28500,
+      "avgDealSizeIDR": 500000000,
+      "dealsNeeded": 5,
+      "primaryFocus": "DACH (Germany/Switzerland) and Benelux Enterprise Software & AI"
+    },
+    "australia": {
+      "quotaIDR": 2500000000,
+      "percentage": 25,
+      "avgDealSizeAUD": 38000,
+      "avgDealSizeIDR": 400000000,
+      "dealsNeeded": 6,
+      "primaryFocus": "Sydney/Melbourne Scale-ups seeking High-ROI Offshore Execution"
+    }
+  },
+  "quarterlyMilestones": {
+    "Q1": {
+      "targetIDR": 1500000000,
+      "objective": "Fleet deployment, warm-up, lead pool generation (3,000 leads), first 3-4 closed deals"
+    },
+    "Q2": {
+      "targetIDR": 2500000000,
+      "objective": "Scaled cadence (2,500 contacts/mo), securing 6-8 deals across ID, UK, EU, AU"
+    },
+    "Q3": {
+      "targetIDR": 3000000000,
+      "objective": "Compounding retainers + high-ticket enterprise contracts in UK & Europe"
+    },
+    "Q4": {
+      "targetIDR": 3000000000,
+      "objective": "Year-end enterprise budget capture and multi-year renewals"
+    }
+  },
+  "funnelMetricsMonthly": {
+    "prospectsSourced": 2500,
+    "emailsAndLinkedInDelivered": 2000,
+    "openRateEstimated": 0.60,
+    "replyRateEstimated": 0.06,
+    "repliesMonthly": 120,
+    "qualifiedDiscoveryCalls": 24,
+    "proposalsSubmitted": 10,
+    "closeRateOnProposals": 0.30,
+    "closedDealsMonthly": 3
+  }
+}

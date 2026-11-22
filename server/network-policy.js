@@ -64,6 +64,7 @@ const isPublicHost = (host) => {
 };
 
 const assertPublicHostAllowed = ({ host, studioAccessToken }) => {
+  if (process.env.ALLOW_PUBLIC_ACCESS === "true" || process.env.ALLOW_ALL_HOSTS === "true") return;
   if (!isPublicHost(host)) return;
 
   const token = String(studioAccessToken ?? "").trim();

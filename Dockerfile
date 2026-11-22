@@ -1,5 +1,5 @@
-# Claw3D - 3D agent visualization for OpenClaw.
-# Multi-stage build: install prod deps -> build Next.js -> run with custom server.
+# Claw3D - 3D agent visualization for OpenClaw (Sundawa Marketing Fleet).
+# Multi-stage build: install prod deps -> build Next.js -> run with Railway runner.
 
 FROM node:20-slim AS deps
 WORKDIR /app
@@ -21,14 +21,18 @@ WORKDIR /app
 ENV NODE_ENV=production
 ENV NEXT_TELEMETRY_DISABLED=1
 
-# Copy built app + custom server + production node_modules only.
+# Copy built app + custom server + production node_modules.
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 COPY --from=builder /app/server ./server
+COPY --from=builder /app/skills ./skills
+COPY --from=builder /app/assets ./assets
+COPY --from=builder /app/marketing-engine ./marketing-engine
+COPY --from=builder /app/todo-skill ./todo-skill
 COPY --from=deps /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/next.config.ts ./next.config.ts
 
 EXPOSE 3000
 
-CMD ["node", "server/index.js"]
+CMD ["node", "server/railway-runner.js"]

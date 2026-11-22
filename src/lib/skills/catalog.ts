@@ -3,7 +3,12 @@ import type {
   SkillStatusEntry,
 } from "@/lib/skills/types";
 
-export type PackagedSkillId = "soundclaw" | "task-manager" | "todo-board";
+export type PackagedSkillId =
+  | "soundclaw"
+  | "task-manager"
+  | "todo-board"
+  | "sundawa-linkedin-hunter"
+  | "sundawa-email-outreach";
 
 export type PackagedSkillDefinition = {
   packageId: PackagedSkillId;
@@ -51,6 +56,26 @@ const PACKAGED_SKILLS: PackagedSkillDefinition[] = [
     installSource: "openclaw-workspace",
     creatorName: "iamlukethedev",
     creatorUrl: "https://github.com/iamlukethedev",
+  },
+  {
+    packageId: "sundawa-linkedin-hunter",
+    skillKey: "sundawa-linkedin-hunter",
+    name: "sundawa-linkedin-hunter",
+    description:
+      "Autonomous LinkedIn & global B2B opportunity hunter for decision makers in Indonesia, Europe, Australia, and the UK.",
+    installSource: "openclaw-workspace",
+    creatorName: "Sundawa Marketing Team",
+    creatorUrl: "https://sundawa.id",
+  },
+  {
+    packageId: "sundawa-email-outreach",
+    skillKey: "sundawa-email-outreach",
+    name: "sundawa-email-outreach",
+    description:
+      "High-converting B2B cold email and proposal engine designed for a 10 Billion IDR annual sales pipeline.",
+    installSource: "openclaw-workspace",
+    creatorName: "Sundawa Marketing Team",
+    creatorUrl: "https://sundawa.id",
   },
 ];
 

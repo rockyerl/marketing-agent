@@ -1,0 +1,69 @@
+{
+  "companyProfile": {
+    "name": "Sundawa Teknologi",
+    "domain": "sundawa.net",
+    "headquarters": "Bandung, Jawa Barat, Indonesia",
+    "coreCapabilities": [
+      "Custom Enterprise Software Development",
+      "Legacy System Modernization & Cloud Migration",
+      "Web & Mobile Applications (Next.js, Flutter, Laravel, Node.js)",
+      "Smart Contracts, Web3 & Business Workflow Automation",
+      "Dedicated High-Velocity Engineering Squads"
+    ],
+    "pricingPhilosophy": "Value-based Custom Commercial Contracts (Bespoke Enterprise Proposals)"
+  },
+  "icpProfiles": [
+    {
+      "region": "Indonesia",
+      "targetSectors": ["Fintech", "Logistik & Supply Chain", "Enterprise B2B", "Retail & F&B Chains", "Healthtech"],
+      "headcount": "30 - 500 employees",
+      "decisionMakers": ["Direktur Utama / CEO", "Chief Technology Officer (CTO)", "VP of Engineering", "Head of Digital Transformation"],
+      "corePainPoints": [
+        "Sistem lama (legacy) lambat, sering down, dan sulit diintegrasikan dengan platform modern",
+        "Kekurangan tim developer in-house yang menguasai arsitektur modern (Next.js, Flutter, Cloud)",
+        "Biaya pemeliharaan software internal membengkak tapi fitur baru lama rilis"
+      ],
+      "valueProposition": "Sundawa Teknologi membantu modernisasi sistem dan membangun custom software enterprise berkinerja tinggi, memangkas waktu rilis fitur hingga 2x lipat dan menekan biaya infrastruktur.",
+      "commercialOffering": "Custom Project Deal: Rp 150.000.000 - Rp 500.000.000+ atau Dedicated Squad Retainer Rp 40.000.000 - Rp 80.000.000/bulan"
+    },
+    {
+      "region": "United Kingdom",
+      "targetSectors": ["FinTech", "HealthTech", "B2B SaaS Scale-ups", "Digital Product Agencies"],
+      "headcount": "15 - 200 employees",
+      "decisionMakers": ["Chief Executive Officer", "Chief Technology Officer", "VP Product", "Managing Director"],
+      "corePainPoints": [
+        "Severe domestic developer shortage and sky-high London engineering rates (£90k-£130k/developer)",
+        "Slow sprint delivery velocity threatening market expansion",
+        "Need for reliable, senior technical partners with strong architectural acumen"
+      ],
+      "valueProposition": "Sundawa provides dedicated, high-caliber software engineering squads (Next.js, Flutter, Cloud) that accelerate roadmap delivery by 50% at half the UK agency burn rate.",
+      "commercialOffering": "Custom Engagement: £15,000 - £45,000 per milestone / Dedicated Squad: £4,500 - £9,000/month"
+    },
+    {
+      "region": "Europe (DACH & Benelux)",
+      "targetSectors": ["Enterprise Software", "Industrial IoT / Industry 4.0", "CleanTech", "Fintech"],
+      "headcount": "25 - 300 employees",
+      "decisionMakers": ["Geschäftsführer (CEO)", "Head of Software Engineering", "Chief Product Officer"],
+      "corePainPoints": [
+        "High engineering costs across Germany, Switzerland, Netherlands",
+        "Aging enterprise software requiring modern web/mobile architecture",
+        "Strict quality and data security expectations for outsourcing partners"
+      ],
+      "valueProposition": "Sundawa modernizes legacy architectures into sleek, maintainable Next.js/Cloud platforms with European code standards and full IP protection.",
+      "commercialOffering": "Custom Enterprise Project: €20,000 - €60,000 / Dedicated Engineering: €5,000 - €10,000/month"
+    },
+    {
+      "region": "Australia",
+      "targetSectors": ["Fast-growing B2B SaaS", "E-Commerce Infrastructure", "Mining & AgTech", "Digital Consultancies"],
+      "headcount": "10 - 150 employees",
+      "decisionMakers": ["Founder & CEO", "CTO / Head of Tech", "General Manager", "Operations Director"],
+      "corePainPoints": [
+        "High development costs in Sydney and Melbourne with long hiring lead times",
+        "Timezone friction with Eastern Europe/US engineering teams",
+        "Urgent need for agile mobile (Flutter) and web (Next.js) development squads"
+      ],
+      "valueProposition": "Same-timezone APAC technical delivery from Bandung tech hub—seamless real-time daily collaboration, senior craftsmanship, and unbeatable cost efficiency.",
+      "commercialOffering": "Custom Build: AUD $25,000 - $70,000 / Ongoing Dedicated Squad: AUD $4,500 - $9,500/month"
+    }
+  ]
+}

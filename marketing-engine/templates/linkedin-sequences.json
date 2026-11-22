@@ -1,0 +1,16 @@
+{
+  "linkedinCampaigns": {
+    "connectionRequests": {
+      "indonesia": "Halo Pak/Bu {{lastName}}, salam kenal. Menarik melihat perkembangan teknologi dan inovasi di {{company}}. Senang jika bisa terhubung dengan sesama praktisi teknologi dan bisnis.",
+      "uk_and_europe": "Hi {{firstName}}, came across your work leading tech/product at {{company}}. Very impressed with your product trajectory and would love to connect here.",
+      "australia": "G'day {{firstName}}, noticed {{company}}'s impressive tech scaling across APAC. Would love to stay connected in the tech ecosystem."
+    },
+    "postAcceptanceFollowUp": {
+      "indonesia": "Terima kasih sudah terhubung, Pak/Bu {{lastName}}. Di Sundawa Teknologi (sundawa.net) kami membantu perusahaan membangun custom software enterprise dan memodernisasi sistem legacy. Senang jika suatu saat bisa bertukar pikiran mengenai arsitektur sistem di {{company}}.",
+      "global": "Thanks for connecting {{firstName}}! At Sundawa (sundawa.net), we provide dedicated high-caliber software engineering squads (Next.js, Flutter, Cloud) and custom systems for tech scale-ups. Would love to share our latest architecture teardown if you ever explore expanding your tech capacity."
+    },
+    "inmailDirectPitch": {
+      "global": "Subject: Engineering capacity & custom systems for {{company}}\n\nHi {{firstName}},\n\nI noticed you are currently leading digital expansion for {{company}}.\n\nWe build custom software systems and provide dedicated senior engineering squads (Next.js, Flutter, Laravel, Cloud) out of Bandung, Indonesia for clients in the UK, Europe, Australia, and APAC.\n\nWe help founders and tech leaders cut development burn rate by 50% while accelerating feature delivery.\n\nOpen to a brief 10-minute introductory chat this week?\n\nBest,\nSundawa Engineering Team\nhttps://sundawa.net"
+    }
+  }
+}

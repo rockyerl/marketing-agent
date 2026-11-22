@@ -121,6 +121,34 @@ export const DEFAULT_SKILL_TRIGGER_FALLBACKS_BY_SKILL_KEY: Record<
     movementTarget: "jukebox",
     skipIfAlreadyThere: true,
   },
+  "sundawa-linkedin-hunter": {
+    anyPhrases: [
+      "linkedin",
+      "cari oportunity",
+      "cari opportunity",
+      "cari lead",
+      "find leads",
+      "prospecting",
+      "scrape linkedin",
+      "hunt opportunities",
+    ],
+    movementTarget: "desk",
+    skipIfAlreadyThere: true,
+  },
+  "sundawa-email-outreach": {
+    anyPhrases: [
+      "kirim email",
+      "email penawaran",
+      "cold email",
+      "send outreach",
+      "buat proposal",
+      "kirim penawaran",
+      "follow up lead",
+      "sales sequence",
+    ],
+    movementTarget: "desk",
+    skipIfAlreadyThere: true,
+  },
 };
 
 export const buildOfficeSkillTriggerHoldMaps = (

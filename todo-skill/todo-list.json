@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-22T18:45:00.000Z",
+  "items": [
+    {
+      "id": "hunter-daily-scan",
+      "title": "[Lead Hunter] 08:00 WIB - Scan 80-100 high-intent B2B tech decision makers di LinkedIn (ID, UK, EU, AU)",
+      "status": "todo",
+      "createdAt": "2026-11-22T18:45:00.000Z",
+      "updatedAt": "2026-11-22T18:45:00.000Z",
+      "blockReason": null
+    },
+    {
+      "id": "outreach-daily-send",
+      "title": "[Email Outreach] 10:00 WIB - Dispatch 50 cold email Touchpoint 1 & follow-up sequence Touchpoint 2/3",
+      "status": "todo",
+      "createdAt": "2026-11-22T18:45:00.000Z",
+      "updatedAt": "2026-11-22T18:45:00.000Z",
+      "blockReason": null
+    },
+    {
+      "id": "closer-daily-triage",
+      "title": "[Deal Closer] 13:30 WIB - Triage balasan masuk, tangani objection, kirim link booking meeting kalender",
+      "status": "todo",
+      "createdAt": "2026-11-22T18:45:00.000Z",
+      "updatedAt": "2026-11-22T18:45:00.000Z",
+      "blockReason": null
+    },
+    {
+      "id": "revops-daily-report",
+      "title": "[RevOps Director] 17:30 WIB - Audit pacing harian menuju Rp 833M/bulan dan update pipeline 10 Miliar",
+      "status": "todo",
+      "createdAt": "2026-11-22T18:45:00.000Z",
+      "updatedAt": "2026-11-22T18:45:00.000Z",
+      "blockReason": null
+    }
+  ]
+}

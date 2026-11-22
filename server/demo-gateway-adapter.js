@@ -10,6 +10,42 @@ const MODELS = [{ id: "demo/mock-office", name: "Mock Office", provider: "demo" 
 
 const agents = new Map([
   [
+    "sundawa-hunter",
+    {
+      id: "sundawa-hunter",
+      name: "Sundawa Lead Hunter",
+      role: "Lead Scout",
+      workspace: "/sundawa/hunter",
+    },
+  ],
+  [
+    "sundawa-outreach",
+    {
+      id: "sundawa-outreach",
+      name: "Sundawa Email Outreach",
+      role: "Outreach Specialist",
+      workspace: "/sundawa/outreach",
+    },
+  ],
+  [
+    "sundawa-closer",
+    {
+      id: "sundawa-closer",
+      name: "Sundawa Deal Closer",
+      role: "SDR Closer",
+      workspace: "/sundawa/closer",
+    },
+  ],
+  [
+    "sundawa-revops",
+    {
+      id: "sundawa-revops",
+      name: "Sundawa RevOps Director",
+      role: "RevOps Director",
+      workspace: "/sundawa/revops",
+    },
+  ],
+  [
     "demo-orchestrator",
     {
       id: "demo-orchestrator",
@@ -200,8 +236,103 @@ async function handleMethod(method, params, id, sendEvent) {
     case "models.list":
       return resOk(id, { models: MODELS });
 
-    case "skills.status":
-      return resOk(id, { skills: [] });
+    case "skills.status": {
+      const demoSkills = [
+        {
+          name: "task-manager",
+          description: "Capture actionable requests as persistent tasks and keep a shared Kanban task store in sync.",
+          source: "openclaw-workspace",
+          bundled: false,
+          filePath: "skills/task-manager/SKILL.md",
+          baseDir: "skills/task-manager",
+          skillKey: "task-manager",
+          always: true,
+          disabled: false,
+          blockedByAllowlist: false,
+          eligible: true,
+          requirements: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          missing: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          configChecks: [],
+          install: [],
+        },
+        {
+          name: "sundawa-linkedin-hunter",
+          description: "Autonomous LinkedIn & global B2B opportunity hunter.",
+          source: "openclaw-workspace",
+          bundled: false,
+          filePath: "skills/sundawa-linkedin-hunter/SKILL.md",
+          baseDir: "skills/sundawa-linkedin-hunter",
+          skillKey: "sundawa-linkedin-hunter",
+          always: true,
+          disabled: false,
+          blockedByAllowlist: false,
+          eligible: true,
+          requirements: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          missing: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          configChecks: [],
+          install: [],
+        },
+        {
+          name: "sundawa-email-outreach",
+          description: "High-converting B2B cold email and proposal engine.",
+          source: "openclaw-workspace",
+          bundled: false,
+          filePath: "skills/sundawa-email-outreach/SKILL.md",
+          baseDir: "skills/sundawa-email-outreach",
+          skillKey: "sundawa-email-outreach",
+          always: true,
+          disabled: false,
+          blockedByAllowlist: false,
+          eligible: true,
+          requirements: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          missing: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          configChecks: [],
+          install: [],
+        },
+        {
+          name: "todo",
+          description: "Maintain a shared workspace TODO list with blocked tasks.",
+          source: "openclaw-workspace",
+          bundled: false,
+          filePath: "skills/todo-board/SKILL.md",
+          baseDir: "skills/todo-board",
+          skillKey: "todo-board",
+          always: true,
+          disabled: false,
+          blockedByAllowlist: false,
+          eligible: true,
+          requirements: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          missing: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          configChecks: [],
+          install: [],
+        },
+        {
+          name: "soundclaw",
+          description: "Control Spotify playback, search music, and return shareable music links.",
+          source: "openclaw-workspace",
+          bundled: false,
+          filePath: "skills/soundclaw/SKILL.md",
+          baseDir: "skills/soundclaw",
+          skillKey: "soundclaw",
+          always: true,
+          disabled: false,
+          blockedByAllowlist: false,
+          eligible: true,
+          requirements: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          missing: { bins: [], anyBins: [], env: [], config: [], os: [] },
+          configChecks: [],
+          install: [],
+        },
+      ];
+      return resOk(id, {
+        workspaceDir: process.cwd(),
+        managedSkillsDir: require("path").join(process.cwd(), "skills"),
+        skills: demoSkills,
+      });
+    }
+
+    case "skills.install":
+      return resOk(id, { ok: true });
 
     case "cron.list":
       return resOk(id, { jobs: [] });

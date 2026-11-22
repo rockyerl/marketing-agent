@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-22T00:00:00.000Z",
+  "territories": {
+    "indonesia": {
+      "name": "Indonesia",
+      "currency": "IDR",
+      "targetRevenueAnnual": 2500000000,
+      "queries": [
+        "site:linkedin.com/in (\"CEO\" OR \"Founder\" OR \"VP Marketing\" OR \"Chief Commercial Officer\") (\"Jakarta\" OR \"Surabaya\" OR \"Bandung\") (\"B2B\" OR \"SaaS\" OR \"Tech\")",
+        "site:linkedin.com/in (\"Head of Growth\" OR \"Direktur Komersial\") Indonesia (\"Retail\" OR \"Fintech\" OR \"Manufacturing\")"
+      ],
+      "targetIndustries": ["Fintech", "SaaS", "Enterprise Tech", "High-growth E-commerce", "Industrial Manufacturing"],
+      "avgDealSize": 250000000
+    },
+    "united_kingdom": {
+      "name": "United Kingdom",
+      "currency": "GBP",
+      "targetRevenueAnnual": 2500000000,
+      "queries": [
+        "site:linkedin.com/in (\"CEO\" OR \"Founder\" OR \"Managing Director\" OR \"VP Growth\") (\"London\" OR \"Manchester\" OR \"Bristol\") (\"Tech\" OR \"SaaS\" OR \"B2B\")",
+        "site:linkedin.com/in (\"Chief Commercial Officer\" OR \"Head of Marketing\") UK (\"Scale-up\" OR \"Fintech\" OR \"AI\")"
+      ],
+      "targetIndustries": ["Fintech", "B2B SaaS", "Professional Services", "AI & Analytics"],
+      "avgDealSize": 500000000
+    },
+    "europe": {
+      "name": "Europe (DACH & Benelux)",
+      "currency": "EUR",
+      "targetRevenueAnnual": 2500000000,
+      "queries": [
+        "site:linkedin.com/in (\"Geschäftsführer\" OR \"Founder\" OR \"CEO\" OR \"Head of Growth\") (\"Germany\" OR \"Berlin\" OR \"Munich\" OR \"Zurich\" OR \"Amsterdam\") (\"Software\" OR \"B2B\")",
+        "site:linkedin.com/in (\"VP Marketing\" OR \"Chief Marketing Officer\") (\"Netherlands\" OR \"Sweden\" OR \"France\") (\"SaaS\" OR \"Tech\")"
+      ],
+      "targetIndustries": ["Industrial Tech", "B2B Software", "AI Automation", "HealthTech"],
+      "avgDealSize": 500000000
+    },
+    "australia": {
+      "name": "Australia",
+      "currency": "AUD",
+      "targetRevenueAnnual": 2500000000,
+      "queries": [
+        "site:linkedin.com/in (\"CEO\" OR \"Founder\" OR \"Managing Director\" OR \"Head of Growth\") (\"Sydney\" OR \"Melbourne\" OR \"Brisbane\") (\"Tech\" OR \"SaaS\")",
+        "site:linkedin.com/in (\"Marketing Director\" OR \"General Manager\") Australia (\"B2B\" OR \"E-commerce Scale-up\")"
+      ],
+      "targetIndustries": ["B2B SaaS", "E-commerce Growth", "Mining & AgTech", "Digital Agencies"],
+      "avgDealSize": 400000000
+    }
+  }
+}

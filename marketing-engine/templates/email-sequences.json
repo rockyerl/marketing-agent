@@ -1,0 +1,56 @@
+{
+  "emailSequences": {
+    "indonesia_custom_software": {
+      "touchpoint1": {
+        "step": 1,
+        "delayDays": 0,
+        "subject": "Modernisasi sistem & custom software untuk {{company}}",
+        "body": "Halo Pak/Bu {{lastName}},\n\nSaya mengamati pertumbuhan {{company}}, khususnya inisiatif digital yang sedang digencarkan saat ini.\n\nBanyak pimpinan teknologi dan operasional di industri {{industry}} yang kami temui menghadapi kendala sistem lama (legacy) yang lambat, biaya server membengkak, atau kebutuhan aplikasi khusus (custom) yang belum sempat digarap tim in-house.\n\nDi Sundawa Teknologi (sundawa.net), kami berbasis di Bandung dan berfokus membangun arsitektur modern (Next.js, Flutter, Cloud, integrasi workflow) yang mempercepat rilis sistem hingga 2x lipat dengan performa stabil.\n\nApakah Bapak/Ibu ada waktu sekitar 15 menit minggu ini untuk diskusi santai mengenai roadmap teknologi {{company}}?\n\nSalam hormat,\nTim Sundawa Teknologi\nhttps://sundawa.net"
+      },
+      "touchpoint2": {
+        "step": 2,
+        "delayDays": 3,
+        "subject": "Re: Modernisasi sistem & custom software untuk {{company}}",
+        "body": "Halo Pak/Bu {{lastName}},\n\nMelanjutkan email saya sebelumnya, berikut gambaran singkat studi kasus bagaimana kami membantu klien B2B merombak sistem legacy dan membangun aplikasi kustom berkinerja tinggi:\n- Waktu loading sistem berkurang 65% dan efisiensi alur kerja naik drastis.\n- Hemat biaya infrastruktur hingga puluhan juta per bulan.\n- Tim in-house dapat fokus ke core business sementara kami menangani pengembangan teknisnya.\n\nJika Bapak/Ibu berminat melihat ringkasan 2 halaman arsitektur solusinya, saya bisa kirimkan langsung.\n\nSalam hangat,\nTim Sundawa Teknologi"
+      },
+      "touchpoint3": {
+        "step": 3,
+        "delayDays": 7,
+        "subject": "Review gratis arsitektur sistem {{company}}",
+        "body": "Halo Pak/Bu {{lastName}},\n\nTim arsitek software kami sempat melakukan review singkat terhadap ekosistem teknologi di {{company}} dan merangkum 3 poin optimasi yang bisa meningkatkan kecepatan operasional & menekan bug.\n\nApakah boleh saya kirimkan rangkuman rekomendasinya ke email ini?\n\nTerima kasih,\nTim Sundawa Teknologi"
+      },
+      "touchpoint4": {
+        "step": 4,
+        "delayDays": 14,
+        "subject": "Izin menutup file komunikasi {{company}}",
+        "body": "Halo Pak/Bu {{lastName}},\n\nSaya paham Bapak/Ibu tentu sangat sibuk memimpin {{company}}. Saya tidak akan membebani inbox Bapak/Ibu lebih lanjut.\n\nJika di masa mendatang {{company}} membutuhkan mitra custom software development atau modernisasi sistem yang siap berkolaborasi erat, kami selalu siap membantu.\n\nSukses selalu untuk {{company}}!\n\nSalam hangat,\nTim Sundawa Teknologi\nhttps://sundawa.net"
+      }
+    },
+    "global_custom_software": {
+      "touchpoint1": {
+        "step": 1,
+        "delayDays": 0,
+        "subject": "engineering squad & custom software for {{company}}",
+        "body": "Hi {{firstName}},\n\nNoticed {{company}} is actively scaling your digital platforms and {{triggerTopic}}.\n\nWe run Sundawa Teknologi (sundawa.net), a custom software engineering house based in Indonesia. We partner with tech companies across the UK, Europe, and Australia to build custom enterprise web/mobile applications (Next.js, Flutter, Node, Cloud) and modernize legacy workflows.\n\nOur clients gain senior engineering velocity at roughly half the domestic talent burn rate, with seamless communication and zero quality compromise.\n\nCould we explore a brief 10-minute intro call this Thursday to see if we can support your tech roadmap?\n\nBest regards,\nSundawa Engineering Team\nhttps://sundawa.net"
+      },
+      "touchpoint2": {
+        "step": 2,
+        "delayDays": 3,
+        "subject": "Re: engineering squad & custom software for {{company}}",
+        "body": "Hi {{firstName}},\n\nFollowing up on my note below—we recently partnered with a high-growth platform in the {{industry}} space to rebuild their core client portal using Next.js and Cloud architecture, reducing sprint delivery cycles from 6 weeks to 14 days.\n\nHappy to share a quick 2-page architectural teardown if you'd like to inspect how we build.\n\nBest,\nSundawa Engineering Team"
+      },
+      "touchpoint3": {
+        "step": 3,
+        "delayDays": 7,
+        "subject": "complimentary technical scope assessment for {{company}}",
+        "body": "Hi {{firstName}},\n\nIf {{company}} has any upcoming features, platform revamps, or custom software backlogs that are currently bandwidth-constrained, we'd be happy to prepare a complimentary high-level architecture & sprint estimation document.\n\nWould it be useful if I share an example with you?\n\nBest,\nSundawa Engineering Team"
+      },
+      "touchpoint4": {
+        "step": 4,
+        "delayDays": 14,
+        "subject": "permission to close your file?",
+        "body": "Hi {{firstName}},\n\nI haven't heard back, so I assume scaling engineering capacity isn't an immediate priority right now—completely understood.\n\nI'll step back for now. Whenever you require a dedicated high-velocity custom software squad in the future, our doors are always open at sundawa.net.\n\nWishing you and {{company}} great success!\n\nCheers,\nSundawa Engineering Team"
+      }
+    }
+  }
+}

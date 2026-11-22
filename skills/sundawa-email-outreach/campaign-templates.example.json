@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-22T00:00:00.000Z",
+  "sequences": {
+    "indonesia": {
+      "touchpoint1": {
+        "subject": "Inisiatif efisiensi & akselerasi revenue {{company}}",
+        "body": "Halo Pak/Bu {{lastName}},\n\nSaya mengamati perkembangan {{company}}, khususnya inisiatif {{triggerTopic}} yang baru saja diluncurkan.\n\nDi Sundawa, kami membantu perusahaan enterprise dan scale-up mengotomatisasi pipeline akuisisi dan operasional pertumbuhan sehingga mampu menekan CAC hingga 40% dan mengamankan kontrak bernilai tinggi lebih konsisten.\n\nApakah Bapak/Ibu ada waktu luang sekitar 15 menit di hari Kamis atau Jumat ini untuk diskusi santai mengenai strategi ini?\n\nSalam hormat,\nTim Sundawa Marketing"
+      },
+      "touchpoint2": {
+        "subject": "Re: Inisiatif efisiensi & akselerasi revenue {{company}}",
+        "body": "Halo Pak/Bu {{lastName}},\n\nMelanjutkan email sebelumnya, saya ingin membagikan studi kasus singkat saat kami membantu klien B2B sejenis mencatatkan pipeline deal baru senilai Rp 2,8 Miliar dalam 90 hari pertama melalui sistem outbounds dan sales ops terintegrasi.\n\nSaya bisa kirimkan ringkasan 2 halaman studi kasusnya jika Bapak/Ibu berminat.\n\nSalam hangat,\nTim Sundawa Marketing"
+      }
+    },
+    "united_kingdom": {
+      "touchpoint1": {
+        "subject": "quick thought for {{company}}'s growth ops",
+        "body": "Hi {{firstName}},\n\nNoticed {{company}} is actively expanding {{triggerTopic}} across the UK market.\n\nWe build autonomous revenue and client-acquisition engines that help high-growth firms identify qualified enterprise opportunities and cut operational overhead by 40-50%.\n\nWould you be open to a brief 10-minute exchange this Thursday to see if our execution model aligns with your Q1/Q2 roadmap?\n\nBest regards,\nSundawa Global Client Team"
+      }
+    },
+    "europe": {
+      "touchpoint1": {
+        "subject": "operational efficiency & pipeline acceleration for {{company}}",
+        "body": "Hi {{firstName}},\n\nI came across {{company}}'s recent update regarding {{triggerTopic}} and wanted to reach out directly.\n\nOur team specializes in deploying automated B2B acquisition infrastructure that shortens deal cycles and scales outbound qualified pipeline with strict data protection compliance.\n\nCould we explore a quick 10-minute intro call this week to see whether this is relevant to your current priorities?\n\nKind regards,\nSundawa European Growth Team"
+      }
+    },
+    "australia": {
+      "touchpoint1": {
+        "subject": "{{company}} + scaling acquisition without headcount bloat",
+        "body": "G'day {{firstName}},\n\nSaw {{company}}'s focus on scaling {{triggerTopic}} across APAC.\n\nWe partner with high-velocity companies in Sydney and Melbourne to deploy autonomous revenue workflows that deliver 3-4x pipeline velocity at a fraction of traditional agency cost.\n\nOpen to catching up for a quick 10-minute chat this Wednesday or Thursday?\n\nCheers,\nSundawa Growth Team"
+      }
+    }
+  }
+}

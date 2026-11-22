@@ -1,0 +1,100 @@
+{
+  "updatedAt": "2026-11-22T00:00:00.000Z",
+  "pipelineSummary": {
+    "totalPipelineValueIDR": 2450000000,
+    "activeOpportunities": 6,
+    "currency": "IDR"
+  },
+  "leads": [
+    {
+      "id": "lead-001",
+      "name": "Budi Santoso",
+      "title": "Chief Commercial Officer",
+      "company": "Nusantara Pay Technologies",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "headcount": 180,
+      "email": "budi.santoso@nusantarapay.id",
+      "linkedinUrl": "https://linkedin.com/in/budi-santoso-example",
+      "hasFundingOrHiringTrigger": true,
+      "estimatedDealValueIDR": 350000000,
+      "stage": "discovery_call_booked",
+      "lastContact": "2026-11-20"
+    },
+    {
+      "id": "lead-002",
+      "name": "Oliver Harrington",
+      "title": "Managing Director",
+      "company": "Apex Fintech UK",
+      "country": "United Kingdom",
+      "city": "London",
+      "headcount": 95,
+      "email": "oliver@apexfintech.co.uk",
+      "linkedinUrl": "https://linkedin.com/in/oliver-harrington-example",
+      "hasFundingOrHiringTrigger": true,
+      "estimatedDealValueIDR": 500000000,
+      "stage": "proposal_submitted",
+      "lastContact": "2026-11-21"
+    },
+    {
+      "id": "lead-003",
+      "name": "Klaus Schneider",
+      "title": "Geschäftsführer (CEO)",
+      "company": "Bavaria Cloud Solutions",
+      "country": "Europe",
+      "city": "Munich, Germany",
+      "headcount": 120,
+      "email": "klaus.schneider@bavariacloud.de",
+      "linkedinUrl": "https://linkedin.com/in/klaus-schneider-example",
+      "hasFundingOrHiringTrigger": true,
+      "estimatedDealValueIDR": 550000000,
+      "stage": "proposal_submitted",
+      "lastContact": "2026-11-19"
+    },
+    {
+      "id": "lead-004",
+      "name": "Lachlan Evans",
+      "title": "Founder & Head of Growth",
+      "company": "Pacific SaaS Analytics",
+      "country": "Australia",
+      "city": "Sydney",
+      "headcount": 45,
+      "email": "lachlan@pacificsaas.com.au",
+      "linkedinUrl": "https://linkedin.com/in/lachlan-evans-example",
+      "hasFundingOrHiringTrigger": true,
+      "estimatedDealValueIDR": 400000000,
+      "stage": "outreach_sequence_active",
+      "lastContact": "2026-11-22"
+    },
+    {
+      "id": "lead-005",
+      "name": "Ratna Dewi",
+      "title": "VP Marketing",
+      "company": "Mitra Logistik Andalan",
+      "country": "Indonesia",
+      "city": "Surabaya",
+      "headcount": 220,
+      "email": "ratna.dewi@mitralogistik.co.id",
+      "linkedinUrl": "https://linkedin.com/in/ratna-dewi-example",
+      "hasFundingOrHiringTrigger": false,
+      "estimatedDealValueIDR": 250000000,
+      "stage": "outreach_sequence_active",
+      "lastContact": "2026-11-21"
+    },
+    {
+      "id": "lead-006",
+      "name": "James Sinclair",
+      "title": "Chief Executive Officer",
+      "company": "NorthBridge Data Labs",
+      "country": "United Kingdom",
+      "city": "Manchester",
+      "headcount": 60,
+      "email": "james@northbridge.io",
+      "linkedinUrl": "https://linkedin.com/in/james-sinclair-example",
+      "hasFundingOrHiringTrigger": true,
+      "estimatedDealValueIDR": 400000000,
+      "stage": "meeting_scheduled",
+      "lastContact": "2026-11-22"
+    }
+  ]
+}

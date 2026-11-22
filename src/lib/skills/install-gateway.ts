@@ -11,8 +11,8 @@ import {
   type PackagedSkillInstallResult,
 } from "@/lib/skills/types";
 
-const normalizeRequired = (value: string, field: string): string => {
-  const trimmed = value.trim();
+const normalizeRequired = (value: string | undefined | null, field: string): string => {
+  const trimmed = typeof value === "string" ? value.trim() : "";
   if (!trimmed) {
     throw new Error(`${field} is required.`);
   }
@@ -103,7 +103,10 @@ export const installPackagedSkillViaGatewayAgent = async (params: {
     throw new Error("Gateway-native packaged install currently supports workspace skills only.");
   }
 
-  let workspaceDir = normalizeRequired(params.request.workspaceDir, "workspaceDir");
+  let workspaceDir =
+    normalizeOptional(params.request.workspaceDir) ||
+    normalizeOptional(params.request.managedSkillsDir) ||
+    process.cwd();
   if (isRootWorkspace(workspaceDir) && normalizeOptional(params.request.agentId)) {
     const recoveredWorkspace = await resolveWorkspaceFromAgentFiles(
       params.client,

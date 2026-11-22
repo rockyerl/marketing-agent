@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "timezone": "Asia/Jakarta (WIB)",
+  "dailyRoutines": [
+    {
+      "time": "08:00 WIB",
+      "agentRole": "sundawa-linkedin-hunter",
+      "agentName": "Sundawa Lead Hunter",
+      "cronExpression": "0 8 * * 1-5",
+      "taskTitle": "Daily LinkedIn & Global Prospect Mining",
+      "instruction": "Scan LinkedIn Sales Navigator and job postings for 80-100 high-intent B2B tech decision makers (CTO, CEO, Head of Product) across Indonesia, UK, Europe, and Australia. Filter by companies hiring engineers or scaling digital platforms. Output qualified leads (score >= 75) into marketing-engine/data/prospects.json."
+    },
+    {
+      "time": "10:00 WIB",
+      "agentRole": "sundawa-email-outreach",
+      "agentName": "Sundawa Email Outreach",
+      "cronExpression": "0 10 * * 1-5",
+      "taskTitle": "Execute Morning Cold Email & LinkedIn Touchpoints",
+      "instruction": "Review new qualified leads from the Hunter. Send Touchpoint 1 cold email sequences to 50 new verified contacts and dispatch Touchpoint 2/3 follow-ups to contacts due today. Ensure tone is localized for each territory (ID, UK, EU, AU) and update campaign logs."
+    },
+    {
+      "time": "13:30 WIB",
+      "agentRole": "sundawa-deal-closer",
+      "agentName": "Sundawa Deal Closer",
+      "cronExpression": "30 13 * * 1-5",
+      "taskTitle": "Triage Replies & Book Discovery Meetings",
+      "instruction": "Scan inbox and LinkedIn messages for incoming replies. Classify responses (Interested, Objection, Referral, Not Interested). Send personalized calendar booking link for qualified leads and prepare draft custom proposal scopes for upcoming calls."
+    },
+    {
+      "time": "17:30 WIB",
+      "agentRole": "sundawa-revops-orchestrator",
+      "agentName": "Sundawa RevOps Director",
+      "cronExpression": "30 17 * * 1-5",
+      "taskTitle": "Daily Revenue Pacing & Target 10B Progress Report",
+      "instruction": "Audit daily metrics: leads sourced, emails sent, reply rate, meetings booked, and active pipeline value. Calculate pacing against the Rp 833.333.333/month target. Post a concise daily standup summary to the chat board."
+    }
+  ]
+}
